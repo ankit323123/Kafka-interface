@@ -1,4 +1,4 @@
-package com.krypton.demo;
+package com.krypton.project;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

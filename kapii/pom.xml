@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.krypton</groupId>
-	<artifactId>demo</artifactId>
+	<artifactId>kapii</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>demo</name>
-	<description>Demo project for Kafka</description>
+	<name>kapii</name>
+	<description>project for Kafka</description>
 	<url/>
 	<licenses>
 		<license/>

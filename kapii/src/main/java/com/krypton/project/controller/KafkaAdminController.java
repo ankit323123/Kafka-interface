@@ -1,11 +1,10 @@
-package com.krypton.demo.controller;
+package com.krypton.project.controller;
 
-import com.krypton.demo.bean.KafkaView;
-import com.krypton.demo.service.KafkaAdminService;
+import com.krypton.project.bean.KafkaView;
+import com.krypton.project.service.KafkaAdminService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.Optional;
 import java.util.concurrent.ExecutionException;
 
 @RestController
