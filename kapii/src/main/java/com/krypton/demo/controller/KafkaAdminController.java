@@ -9,7 +9,7 @@ import java.util.Optional;
 import java.util.concurrent.ExecutionException;
 
 @RestController
-@RequestMapping("/api/demo/v1")
+@RequestMapping("/api/kapii/v1")
 public class KafkaAdminController {
 
     @Autowired
