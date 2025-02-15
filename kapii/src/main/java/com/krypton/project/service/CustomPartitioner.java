@@ -1,4 +1,4 @@
-package com.krypton.demo.service;
+package com.krypton.project.service;
 
 import org.apache.kafka.clients.producer.Partitioner;
 import org.apache.kafka.common.Cluster;

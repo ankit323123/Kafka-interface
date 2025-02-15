@@ -1,8 +1,7 @@
-package com.krypton.demo.service.impl;
+package com.krypton.project.service.impl;
 
-import com.krypton.demo.service.CustomPartitioner;
-import com.krypton.demo.service.KafkaProducerService;
-import lombok.extern.slf4j.Slf4j;
+import com.krypton.project.service.CustomPartitioner;
+import com.krypton.project.service.KafkaProducerService;
 import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.ProducerConfig;
 import org.apache.kafka.clients.producer.ProducerRecord;

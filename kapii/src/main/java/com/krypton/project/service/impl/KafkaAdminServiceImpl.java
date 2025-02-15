@@ -1,17 +1,16 @@
-package com.krypton.demo.service.impl;
+package com.krypton.project.service.impl;
 
-import com.krypton.demo.bean.Broker;
-import com.krypton.demo.bean.KafkaTopic;
-import com.krypton.demo.bean.KafkaView;
-import com.krypton.demo.bean.Partition;
-import com.krypton.demo.service.KafkaAdminService;
+import com.krypton.project.bean.Broker;
+import com.krypton.project.bean.KafkaTopic;
+import com.krypton.project.bean.KafkaView;
+import com.krypton.project.bean.Partition;
+import com.krypton.project.service.KafkaAdminService;
 import org.apache.kafka.clients.admin.*;
 import org.apache.kafka.common.Node;
 import org.apache.kafka.common.TopicPartitionInfo;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.autoconfigure.kafka.KafkaProperties;
 import org.springframework.kafka.core.KafkaAdmin;
 import org.springframework.stereotype.Service;
 

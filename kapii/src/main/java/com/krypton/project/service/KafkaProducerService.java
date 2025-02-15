@@ -1,4 +1,4 @@
-package com.krypton.demo.service;
+package com.krypton.project.service;
 
 public interface KafkaProducerService {
 

@@ -1,17 +1,15 @@
-package com.krypton.demo.controller;
+package com.krypton.project.controller;
 
-import com.krypton.demo.service.KafkaProducerService;
+import com.krypton.project.service.KafkaProducerService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpEntity;
 import org.springframework.http.ResponseEntity;
-import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/api/demo/v1")
+@RequestMapping("/api/kapii/v1")
 public class KafkaProducerController {
 
     @Autowired

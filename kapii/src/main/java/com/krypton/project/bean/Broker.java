@@ -1,4 +1,4 @@
-package com.krypton.demo.bean;
+package com.krypton.project.bean;
 
 import lombok.Data;
 

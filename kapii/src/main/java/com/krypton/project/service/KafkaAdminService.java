@@ -1,6 +1,6 @@
-package com.krypton.demo.service;
+package com.krypton.project.service;
 
-import com.krypton.demo.bean.KafkaView;
+import com.krypton.project.bean.KafkaView;
 
 import java.util.concurrent.ExecutionException;
 
