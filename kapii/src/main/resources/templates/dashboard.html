@@ -7,18 +7,13 @@
 <body>
 <div class="container">
     <h1 class="mt-3">Kafka Dashboard</h1>
-    <h3>Brokers</h3>
-    <ul>
-        <li th:each="broker : ${brokers}" th:text="${broker}"></li>
-    </ul>
-    <h3>Topics</h3>
-    <ul>
-        <li th:each="topic : ${topics}" th:text="${topic}"></li>
-    </ul>
-    <h3>Messages</h3>
-    <ul>
-        <li th:each="message : ${messages}" th:text="${message}"></li>
-    </ul>
+    <h3>Welcome user!! This is Kapii. How can I help?</h3>
+
+    <div class="mt-4">
+        <a th:href="@{/connection}" class="btn btn-primary me-2">Add Connection</a>
+        <a th:href="@{/help}" class="btn btn-secondary">Help</a>
+        <a th:href="@{/about}" class="btn btn-secondary">About</a>
+    </div>
 </div>
 </body>
 </html>
