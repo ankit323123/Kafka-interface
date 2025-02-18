@@ -11,7 +11,7 @@ import java.util.Properties;
 import java.util.concurrent.ExecutionException;
 
 @Controller
-public class connectionController {
+public class ConnectionController {
 
     @GetMapping("/connection")
     public String kafkaConfig() {
